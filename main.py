@@ -18,7 +18,7 @@ def transform_to_row(input_file, output_file):
         for word in words:
             output_f.write(word.strip() + '\n')
 
-    transform_to_row('names.txt', 'names_new.txt')
+    transform_to_row('names.txt', 'new_names.txt')
 
 
 # TASK3
